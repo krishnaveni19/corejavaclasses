@@ -7,6 +7,9 @@ public class Hdfc  implements Rbi {
 		Hdfc obj=new Hdfc();
 		obj.deposit();
 		obj.withdrawl();
+		Rbi r=new Hdfc();
+		r.deposit();
+		r.withdrawl();
 		
 	}
 
